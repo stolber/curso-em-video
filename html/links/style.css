@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+a {
+    color: deeppink;
+}
+a:hover {
+    color: yellowgreen;
+    font-style: italic;
+}
+a:active {
+    color: blue;
+}

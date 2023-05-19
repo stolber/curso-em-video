@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+EM HTML ID PARA CSS É # (SÓ PODE SER USADO 1 VEZ SOBREPOE O CLASS)
+EM HTML CLASS PARA CSS É . (PARA ADICIONAR 1 CONFIGURAÇÃO EM 2 ELEMENTOS)
+*/
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif
+}
+h1 {
+    color: cornflowerblue;
+}
+#principal {
+    text-align: center;
+}
+h2 {
+    color: cadetblue;
+}
+.basico {
+    color: brown;
+}
+.itermediario {
+    color: chocolate;
+}
+.avancado {
+    color: darkolivegreen;
+}
+#cabeca:hover{
+    background-color: aqua;
+}
+#corpo1:hover{
+    background-color: white;
+}
+#corpo2:hover{
+    background-color: white;
+}

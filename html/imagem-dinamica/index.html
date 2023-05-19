@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Teste esse site em vários formatos diferentes para ver a reação das imagens</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/P.png" type="image/png"> 
+        <!--ATÉ 750PX ELE VAI MANTER A PEQUENA / SOURCE TEM QUE ESTAR EM ORDEM -->
+
+        <source media="(max-width:1050px)" srcset="imagens/M.png" type="image/png">
+        <!--ATÉ 1050PX ELE VAI MANTER A MEDIA / SOURCE TEM QUE ESTAR EM ORDEM -->
+
+        <img src="imagens/G.png" alt="imagem quadrada" type="image/png">
+        <!--ACIMA DE 1050PX ELE UTILIZA A PADRÃO / SOURCE TEM QUE ESTAR EM ORDEM-->
+    </picture>
+</body>
+</html>

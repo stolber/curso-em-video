@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: Quicksand, sans-serif;
+    margin: 0px;
+    background-color: #261711;
+}
+header {
+    display: block;
+    text-align: center;
+    background: linear-gradient(#261711, black);
+    box-shadow: 1px 2px 4px #261711;
+    margin: 0px;
+    padding: 10px;
+}
+nav {
+    font-family: Quicksand, sans-serif;
+    font-size: 0.6em;
+    background-color: #8C5642;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+nav > a {
+    font-family: Quicksand, sans-serif;
+    font-size: 2.2em;
+    padding-left: 40px;
+    color: #261711;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav > a:hover {
+    color: #D9AA8F;
+}
+main {
+    background-color: #D9AA8F;
+    margin: 10px;
+    border-radius: 30px;
+    display: block;
+    padding: 10px;
+}
+h1 {
+    font-family: Poiret One, sans-serif;
+    font-size: 4.5em;
+    color: #8C5642;
+}
+h2 {
+    font-family: Poiret One, sans-serif;
+    font-size: 2.2em;
+    color: #261711;
+    text-align: center;
+    padding-top: 10px;
+}
+p {
+    font-family: Quicksand, sans-serif;
+    font-size: 1em;
+    color: #261711;
+    text-align: justify;
+    font-weight: 600;
+    text-indent: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+.artigo1 {
+    text-align: center;
+    display: block;
+}
+.artigo2 {
+    text-align: center;
+    display: block;
+}
+.artigo3 {
+    text-align: center;
+    display: block;
+}
+.listas {
+    display: block;
+    text-align: center;
+    background: linear-gradient(#261711, black);
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 50px;
+    color: #D9AA8F;
+}
+.lista1 {
+    display: inline-block; 
+}
+.lista2 {
+    display: inline-block;
+}
+.titulo-lista {
+    color: #D9AA8F;
+    font-size: 1.8em;
+}
+footer {
+    background-color: #D9AA8F;
+    margin: 10px;
+    border-radius: 30px;
+}
+.copy {
+    color: #261711;
+    font-size: 1.6em;
+    font-family: Poiret One, sans-serif;
+    text-align: center;
+}
+.banner {
+    display: block;
+    margin: auto;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    height: 0;
+}
+.video > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

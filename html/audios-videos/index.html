@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios e Videos</title>
+</head>
+<body>
+    <h1>Aqui vamos inserir Audios e Videos</h1>
+    <p>Vamos aprender a reproduzí-los</p>
+
+<!--ABAIXO 1° EXEMPLO PARA INSERIR MUSICA NO SITE -->
+    <audio src="arquivos/musica-qualquer.mp3" controls preload="metadata"></audio>
+
+<!--ABAIXO 2° EXEMPLO PARA INSERIR MUSICA NO SITE ELE VAI TESTAR TODOS OS FORMATOS PARA FUNCIONAR NO NAVEGADOR -->
+    <audio preload="metadata" controls>
+        <source src="arquivos/musica-qualquer.mp3" type="audio/mpeg">
+        <source src="arquivos/musica-qualquer.mp3" type="audio/ogg">
+        <source src="arquivos/musica-qualquer.mp3" type="audio/wav">
+    </audio>
+
+<h1>Videos Diretos do Meu Servidor</h1>
+<p>Os melhores formatos para navegadores são mp4, m4v, ogv, webn. Abaixo video hospetado no meu servidor</p>
+
+    <video controls width="500" poster="arquivos/poltrona-video.mp4" autoplay loop> <!--POSTER É A CAPA DO VIDEO-->
+        <source src="arquivos/poltrona-video.mp4" type="video/mp4">
+        <source src="arquivos/poltrona-video.mp4" type="video/webn">
+        <source src="arquivos/poltrona-video.mp4" type="video/ogg">
+    </video>
+<h1>Importando Videos Externos</h1>
+<!--IR NO YOUTUBE/VIMEO E CLICA EM INCORPORAR PRONTO-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FQEe5LawOY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
