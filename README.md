@@ -30,7 +30,7 @@ Sinta-se à vontade para explorar o repositório, revisar o código e sugerir me
 
 ## Agradecimentos
 
-Gostaria de expressar minha gratidão ao instrutor Gustavo Guanabara e à equipe do curso por fornecerem um material didático de alta qualidade e de forma totalmente gratuita. Estou animado(a) para continuar aprendendo e aprimorando minhas habilidades.
+Gostaria de expressar minha gratidão ao instrutor Gustavo Guanabara e à equipe do curso, por fornecerem um material didático de alta qualidade e de forma totalmente gratuita. Estou animado para continuar aprendendo e aprimorando minhas habilidades.
 
 ## Contato
 
