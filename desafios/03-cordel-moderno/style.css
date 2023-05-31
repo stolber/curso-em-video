@@ -54,6 +54,7 @@ section {
     padding-bottom: 5vh;
     line-height: 2em;
     padding-left: 30px;
+    display: block;
 }
 
 .normal {
@@ -72,7 +73,7 @@ section.imagem {
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.699);
-    width: 480px;
+    width: 400px;
     text-shadow: 1px 1px 3px black;
 }
 

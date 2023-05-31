@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        table {
+            width: 400px;
+            height: 200px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead, tfoot {
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+        }
+
+        thead > tr > th {
+            position: sticky; /* POSICIONAMENTO RELATIVO TOP BOTTOM LEFT E RIGHT */
+            top: -1px;
+            background-color: black;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.3em;
+            background-color: lightgray;
+            color: black;
+            padding: 10px;
+        }
+
+        /* 2n = 2 em 2 linhas background (odd ou even / impar ou par) */
+        tbody > tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
+    </style>
+    <title>TABELA 02</title>
+</head>
+<body>
+    <!-- 
+        ANATOMIA DE TABELAS MAIORES E SEMANTICAS
+        TABLE
+            CAPTION <- LEGENDA DA TABELA
+            THEAD
+                TR,TD,TH
+            TBODY
+                TR,TD,TH
+            TFOOT
+                TR,TD,TH
+
+                        TH -> USADO PARA TITULO
+                        TD -> USADO PARA DADO
+_________________________________________________________________
+        
+        DIZER SOBRE ONDE ESTÁ LOCALIZADO OS DADOS DO TITULO (TH)
+            
+            scope -> col < Na coluna
+            scope -> row < Na linha
+    -->
+    <table>
+        <caption>População dos Estados</caption>
+        <thead>
+            <th scope="col">ESTADO</th>
+            <th scope="col" style="width: 20px;">POPULAÇÃO</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>12 396 372</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>6 775 561</td>
+            </tr>
+            <tr>
+                <td>Brasília</td>
+                <td>3 094 325</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td colspan="2">Estado</td> <!-- MESCLAGEM DE CELULA EM COLUNA -->
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Estado</td> <!-- MESCLAGEM DE CELULA EM LINHA -->
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <!-- <td>Estado</td> -->
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <!-- <td>Estado</td> -->
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado</td>
+                <td>0 000 000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">TOTAL DE HABITANTES</th>
+                <td><strong>00.000.000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
