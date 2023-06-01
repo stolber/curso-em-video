@@ -17,62 +17,67 @@
             border: 1px solid black;
             padding: 10px;
         }
+        div#container {
+            overflow-x: auto; /* DEIXANDO TABELA RESPONSIVA COM ROLAGEM LATERAL (X) (OVERFLOW)*/
+        }
     </style>
     <title>TABLE 02</title>
 </head>
 <body>
     <h1>Desafio 02 - Tabelas </h1>
-    <table>
-        <caption>Filmes Favoritos</caption>
-        <thead>
-            <tr>
-                <th scope="col">GRUPOS</th>
-                <th scope="col">NOMES</th>
-                <th scope="colgroup" colspan="3">FILMES</th> <!-- scope define onde está o dado col (coluna) row (linha) -->
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="rowgroup" rowspan="3">MULHERES</th>
-                <td>Ana Maria</td>
-                <td>FILME</td>
-                <td>FILME</td>
-                <td>FILME</td>
-            </tr>
-            <tr>
-                <td>Beatriz</td>
-                <td>FILME</td>
-                <td>FILME</td>
-                <td>FILME</td>
-            </tr>
-            <tr>
-                <td>Claudia</td>
-                <td>FILME</td>
-                <td>FILME</td>
-                <td>FILME</td>
-            </tr>
-            <tr>
-                <th scope="rowgroup" rowspan="3">HOMENS</th>
-                <td>Pedro</td>
-                <td>FILME</td>
-                <td>FILME</td>
-                <td>FILME</td>
-            </tr>
-            <tr>
-                <td>João</td>
-                <td>FILME</td>
-                <td>FILME</td>
-                <td>FILME</td>
-            </tr>
-            <tr>
-                <td>Robson</td>
-                <td>FILME</td>
-                <td>FILME</td>
-                <td>FILME</td>
-            </tr>
-        </tbody>
-        <tfoot>
-        </tfoot>
-    </table>
+    <div id="container">
+        <table>
+            <caption>Filmes Favoritos</caption>
+            <thead>
+                <tr>
+                    <th scope="col">GRUPOS</th>
+                    <th scope="col">NOMES</th>
+                    <th scope="colgroup" colspan="3">FILMES</th> <!-- scope define onde está o dado col (coluna) row (linha) -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="rowgroup" rowspan="3">MULHERES</th>
+                    <td>Ana Maria</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                </tr>
+                <tr>
+                    <td>Beatriz</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                </tr>
+                <tr>
+                    <td>Claudia</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" rowspan="3">HOMENS</th>
+                    <td>Pedro</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                </tr>
+                <tr>
+                    <td>Robson</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                    <td>FILME</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>
