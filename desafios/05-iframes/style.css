@@ -34,3 +34,31 @@ main {
     width: 416px;
     background: url(imagens/frame-iphone.png) no-repeat;
 }
+
+#tela {
+    position: relative;
+    top: 19px;
+    left: 77px;
+
+    width: 265px;
+    height: 572px;
+
+    border-radius: 25px;
+}
+
+section#redes {
+    text-align: right;
+}
+
+section#redes img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section#redes img:hover {
+    border: 2px solid white;
+    transform: translate(-2px,-2px);
+    transition: transform 0.5s;
+}
