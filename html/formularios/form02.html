@@ -8,14 +8,42 @@
 <body>
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="off">
-        <p>
-            <label for="user">Usuário:</label>
-            <input type="text" name="user" id="user" required size="20" placeholder="Nome de Usuário">
-        </p> 
-        <p>
-            <label for="pass">Senha:</label>
-            <input type="password" name="pass" id="pass" required minlength="8" maxlength="20" placeholder="Digite uma Senha"> <!-- MINIMO DIGITOS 8 -->
-        </p>
+        <fieldset>
+            <legend>Cadastre-se</legend>
+            <p>
+                <label for="user">Usuário:</label>
+                <input type="text" name="user" id="user" required size="20" placeholder="Nome de Usuário">
+            </p>
+            <p>
+                <label for="pass">Senha:</label>
+                <input type="password" name="pass" id="pass" required minlength="8" maxlength="20" placeholder="Digite uma Senha"> <!-- MINIMO DIGITOS 8 -->
+            </p>
+            <p>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="e-mail" id="e-mail" required size="20" placeholder="Seu e-mail">
+            </p>
+            <p>
+                <label for="whats">WhatsApp:</label>
+                <input type="email" name="whats" id="whats" required size="20" placeholder="Seu WhatsApp">
+            </p>
+            <p>
+                <label for="data">Data de Hoje:</label>
+                <input type="date" name="data" id="data" required size="20" placeholder="A data de hoje">
+            </p>
+            <fieldset>
+                <legend>Qual seu gênero?</legend>
+                <input type="radio" name="sexo" id="sexo" value="M">
+                <label for="radio">Masculino</label>
+                <input type="radio" name="sexo" id="sexo" value="F">
+                <label for="radio">Feminino</label>
+                <input type="radio" name="sexo" id="sexo" value="NB">
+                <label for="radio">Não binário</label>
+            </fieldset>
+            <p>
+                <input type="checkbox" name="termos" id="termos" required> 
+                <label for="termos">Você aceita os termos e condições</label>
+            </p>
+        </fieldset>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
     </form>
