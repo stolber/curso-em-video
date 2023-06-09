@@ -55,7 +55,6 @@ section#redes img {
     margin: 10px;
     border-radius: 50%;
     box-sizing: border-box;
-    z-index: 3;
 }
 
 section#redes img:hover {
