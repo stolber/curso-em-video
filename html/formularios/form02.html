@@ -6,7 +6,7 @@
     <title>Formulario 2</title>
 </head>
 <body>
-    <h1>Teste de Formulário</h1>
+    <h1>Formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="off">
         <fieldset>
             <legend>Cadastre-se</legend>
@@ -42,6 +42,14 @@
             <p>
                 <input type="checkbox" name="termos" id="termos" required> 
                 <label for="termos">Você aceita os termos e condições</label>
+            </p>
+            <p>
+                <label for="doc">Insira seu arquivo em anexo</label>
+                <input type="file" name="doc" id="doc" required> 
+            </p>
+            <p>
+                <label for="msg">Mensagem:</label> <br>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
             </p>
         </fieldset>
             <input type="submit" value="Enviar">
