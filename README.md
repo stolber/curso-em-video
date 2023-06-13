@@ -11,49 +11,46 @@ O objetivo deste repositório é documentar meu progresso e aprendizado no curso
 
 ## 📂 Pastas
 
-- **[css](./css)**: Contém os arquivos CSS utilizados nos desafios e exemplos.
+- **[css](./css)**: Contém os arquivos CSS utilizados nos desafios e práticas.
 - **[desafios](./desafios)**: Contém os desafios propostos para a prática de HTML e CSS.
-- **[html](./html)**: Contém os arquivos HTML utilizados nos desafios e exemplos.
+- **[html](./html)**: Contém os arquivos HTML utilizados nos desafios e práticas.
 
 ## 📁 Diretório CSS
 
 Este diretório contém os seguintes tópicos relacionados a estilos CSS:
 
-- **[backgrounds](./css/backgrounds)**: 
-- **[novo desafio](./css/novo-desafio)**: 
-- **[box](./css/box)**: 
-- **[cores-fontes](./css/cores-fontes)**: 
-- **[css-externo](./css/css-externo)**: 
-- **[css-inline](./css/css-inline)**: 
-- **[css-interno](./css/css-interno)**: 
-- **[css-seletores](./css/css-seletores)**: 
-- **[media-query](./css/media-query)**: 
+- **[backgrounds](./css/backgrounds)** 
+- **[box](./css/box)** 
+- **[cores-fontes](./css/cores-fontes)** 
+- **[css-externo](./css/css-externo)** 
+- **[css-inline](./css/css-inline)**
+- **[css-interno](./css/css-interno)** 
+- **[css-seletores](./css/css-seletores)** 
+- **[media-query](./css/media-query)** 
 
 ## 📁 Diretório HTML
 
 Este diretório contém os seguintes tópicos relacionados a marcação HTML:
 
-- **[audios-videos](./html/audios-videos)**: 
-- **[desafio-html-basico](./html/desafio-html-basico)**: 
-- **[formularios](./html/formularios)**: 
-- **[iframes](./html/iframes)**: 
-- **[imagem-dinamica](./html/imagem-dinamica)**: 
-- **[links](./html/links)**: 
-- **[listas](./html/listas)**: 
-- **[tabelas](./html/tabelas)**: 
-
-.
-- **[textos-imagens](./html/textos-imagens)**: Exemplos e práticas relacionadas à combinação de texto e imagens em páginas HTML.
+- **[audios-videos](./html/audios-videos)** 
+- **[desafio-html-basico](./html/desafio-html-basico)** 
+- **[formularios](./html/formularios)** 
+- **[iframes](./html/iframes)** 
+- **[imagem-dinamica](./html/imagem-dinamica)** 
+- **[links](./html/links)** 
+- **[listas](./html/listas)** 
+- **[tabelas](./html/tabelas)** 
+- **[textos-imagens](./html/textos-imagens)**
 
 ## 🎯 Diretório Desafios
 
 Este diretório contém os seguintes desafios relacionados ao curso de HTML e CSS:
 
-- **[01-desafio-site](./desafios/01-desafio-site)**: 
-- **[02-desafio-android-guanabara](./desafios/02-desafio-android-guanabara)**:  
-- **[03-cordel-moderno](./desafios/03-cordel-moderno)**: 
-- **[04-tabelas](./desafios/04-tabelas)**: 
-- **[05-iframes](./desafios/05-iframes)**: 
+- **[01-desafio-site](./desafios/01-desafio-site)**
+- **[02-desafio-android-guanabara](./desafios/02-desafio-android-guanabara)** 
+- **[03-cordel-moderno](./desafios/03-cordel-moderno)**
+- **[04-tabelas](./desafios/04-tabelas)**
+- **[05-iframes](./desafios/05-iframes)**
 
 Sinta-se à vontade para explorar os diferentes diretórios e desafios, para conhecer um pouco do meu aprendizado e minha jornada Front-End. 
 
