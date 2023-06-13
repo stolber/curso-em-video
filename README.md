@@ -1,8 +1,7 @@
 # 🌟 Curso de HTML e CSS
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-gray?style=for-the-badge&logo=linkedin)](https://br.linkedin.com/in/pedro-henrique-stolber-674679181)
-
-[![GitHub](https://img.shields.io/badge/GitHub-gray?style=for-the-badge&logo=github)](https://github.com/stolber)
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-gray?style=for-the-badge&logo=linkedin)](https://br.linkedin.com/in/pedro-henrique-stolber-674679181) | [![GitHub](https://img.shields.io/badge/GitHub-gray?style=for-the-badge&logo=github)](https://github.com/stolber) |
+|---|---|
 
 Bem-vindo(a) ao repositório do curso de HTML e CSS! Aqui você encontrará todo o material e código relacionados ao meu aprendizado neste curso disponibilizado pelo **CursoemVideo**. Este README fornecerá uma visão geral dos meus estudos e separações dos conteúdos.
 
