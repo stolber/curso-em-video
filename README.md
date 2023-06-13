@@ -1,39 +1,63 @@
-# Curso de HTML e CSS
+# 🌟 Curso de HTML e CSS
 
-🌟 Bem-vindo(a) ao repositório do curso de HTML e CSS! Aqui você encontrará todo o material e código relacionados ao meu aprendizado nesse curso. Este README fornecerá uma visão geral do projeto e dos commits realizados.
+<div align="center">
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gray?style=for-the-badge&logo=linkedin)](https://br.linkedin.com/in/pedro-henrique-stolber-674679181)
+[![GitHub](https://img.shields.io/badge/GitHub-Gray?style=for-the-badge&logo=github)](https://github.com/stolber)
+</div>
 
-## Descrição
+Bem-vindo(a) ao repositório do curso de HTML e CSS! Aqui você encontrará todo o material e código relacionados ao meu aprendizado neste curso disponibilizado pelo **CursoemVideo**. Este README fornecerá uma visão geral dos meus estudos e separações dos conteúdos.
 
-O objetivo deste repositório é documentar meu progresso e aprendizado no curso de HTML e CSS. Durante o curso, explorei conceitos fundamentais dessas linguagens de marcação e estilo, aprimorando minha habilidade de criar páginas web atraentes e responsivas.
+## 📄 Descrição
 
-## Estrutura do Repositório
+O objetivo deste repositório é documentar meu progresso e aprendizado no curso. Durante o curso, explorei conceitos fundamentais dessas linguagens de marcação e estilo, aprimorando minha habilidade de criar páginas web atraentes e responsivas.
 
-O repositório está organizado da seguinte forma:
+## 📂 Pastas
 
-- 📂 **/html**: Este diretório contém os exercícios práticos propostos ao longo do curso. Cada exercício possui uma pasta separada com o código correspondente.
+- **[css](./css)**: Contém os arquivos CSS utilizados nos desafios e exemplos.
+- **[desafios](./desafios)**: Contém os desafios propostos para a prática de HTML e CSS.
+- **[html](./html)**: Contém os arquivos HTML utilizados nos desafios e exemplos.
 
-- 📂 **/css**: O mesmo para o caso do CSS dentro estão as pastas e códigos correspondentes dos aprendizados.
+## 📁 Diretório CSS
 
-- 📂 **/desafios**: Este diretório são os desafios para melhorar meu aprendizado onde é colocado em prática, o que aprendemos em aula.
+Este diretório contém os seguintes tópicos relacionados a estilos CSS:
 
-## Commits
+- **[backgrounds](./css/backgrounds)**: 
+- **[novo desafio](./css/novo-desafio)**: 
+- **[box](./css/box)**: 
+- **[cores-fontes](./css/cores-fontes)**: 
+- **[css-externo](./css/css-externo)**: 
+- **[css-inline](./css/css-inline)**: 
+- **[css-interno](./css/css-interno)**: 
+- **[css-seletores](./css/css-seletores)**: 
+- **[media-query](./css/media-query)**: 
 
-Abaixo está uma lista dos commits realizados até o momento:
+## 📁 Diretório HTML
 
-1. 🎉 **Inicialização do repositório**: Criei a estrutura básica do repositório.
+Este diretório contém os seguintes tópicos relacionados a marcação HTML:
 
-2. ➕ **Adição das Pastas**: Adicionei as pastas e exercícios.
+- **[audios-videos](./html/audios-videos)**: 
+- **[desafio-html-basico](./html/desafio-html-basico)**: 
+- **[formularios](./html/formularios)**: 
+- **[iframes](./html/iframes)**: 
+- **[imagem-dinamica](./html/imagem-dinamica)**: 
+- **[links](./html/links)**: 
+- **[listas](./html/listas)**: 
+- **[tabelas](./html/tabelas)**: 
 
-## Contribuição
+.
+- **[textos-imagens](./html/textos-imagens)**: Exemplos e práticas relacionadas à combinação de texto e imagens em páginas HTML.
 
-Sinta-se à vontade para explorar o repositório, revisar o código e sugerir melhorias. Se você encontrar algum problema ou tiver alguma dúvida, abra uma nova issue para que possamos discutir.
+## 🎯 Diretório Desafios
 
-## Agradecimentos
+Este diretório contém os seguintes desafios relacionados ao curso de HTML e CSS:
 
-Gostaria de expressar minha gratidão ao instrutor Gustavo Guanabara e à equipe do curso, por fornecerem um material didático de alta qualidade e de forma totalmente gratuita. Estou animado para continuar aprendendo e aprimorando minhas habilidades.
+- **[01-desafio-site](./desafios/01-desafio-site)**: 
+- **[02-desafio-android-guanabara](./desafios/02-desafio-android-guanabara)**:  
+- **[03-cordel-moderno](./desafios/03-cordel-moderno)**: 
+- **[04-tabelas](./desafios/04-tabelas)**: 
+- **[05-iframes](./desafios/05-iframes)**: 
 
-## Contato
+Sinta-se à vontade para explorar os diferentes diretórios e desafios, para conhecer um pouco do meu aprendizado e minha jornada Front-End. 
 
-Caso deseje entrar em contato comigo, você pode me encontrar no seguinte endereço de e-mail: [pedro.stolber@gmail.com](mailto:pedro.stolber@gmail.com).
+Obrigado pela visita! 😄
 
-Obrigado por visitar este repositório e acompanhar meu progresso no curso de HTML e CSS. Espero que este material seja útil para você e que também possa ajudar outros estudantes interessados em desenvolvimento web.
