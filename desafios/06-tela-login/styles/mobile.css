@@ -53,3 +53,66 @@ div#formulario {
     display: block;
     padding: 10px;
 }
+
+div#formulario h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario p {
+    font-size: 0.9em;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 10px;
+    background-color: var(--color5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: var(--color4);
+    cursor: pointer; 
+}
+
+form .campo {
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+form div input {
+    height: 35px;
+    border-radius: 5px;
+    width: 240px;
+    border-color: var(--color3);
+}
+
+form a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    color: var(--color5);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 10px;
+    border: 1px solid var(--color5);
+}
+
+form a:hover {
+    background-color:var(--color5);
+    color: white;
+}

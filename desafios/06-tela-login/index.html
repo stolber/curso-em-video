@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/mobile.css">
     <link rel="shortcut icon" href="imagens/shield-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <main>
@@ -17,14 +18,21 @@
                     <h1>Login</h1>
                     <p>Acesse sua conta e utilize nosso sistema.</p>
                     
-                    <input type="email" required name="email" placeholder="Seu E-mail">
-                    <label for="email" id="email"></label><br>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            person</span>
+                        <input type="email" required name="email" placeholder="Seu E-mail">
+                        <label for="email" id="email"></label><br>
+                    </div>
 
-                    <input type="password" required name="senha" placeholder="Sua Senha">
-                    <label for="senha" id="senha"></label><br>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" required name="senha" placeholder="Sua Senha" minlength="8">
+                        <label for="senha" id="senha"></label><br>
+                    </div>
 
-                    <button type="submit">Entrar</button><br>
-                    <button>Esqueci a senha</button><br>
+                    <button type="submit">Entrar</button>
+                    <a href="" class="botao">Esqueci a senha</a>
                 </form>
             </div>
         </section>
