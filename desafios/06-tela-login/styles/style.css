@@ -16,6 +16,7 @@
 
     main section#login {
         width: 80vw;
+        height: 350px;
     }
 
     main section div#imagem {
@@ -33,7 +34,7 @@
 @media screen and (min-width: 992px){
     
     main section#login {
-        width: 990px;
+        width: 800px;
     }
 
     main section div#imagem {
