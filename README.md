@@ -51,6 +51,8 @@ Este diretório contém os seguintes desafios relacionados ao curso de HTML e CS
 - **[03-cordel-moderno](./desafios/03-cordel-moderno)**
 - **[04-tabelas](./desafios/04-tabelas)**
 - **[05-iframes](./desafios/05-iframes)**
+- **[06-tela-login](./desafios/06-tela-login)**
+- **[07-flex-blog](./desafios/07-flex-blog)**
 
 Sinta-se à vontade para explorar os diferentes diretórios e desafios, para conhecer um pouco do meu aprendizado e minha jornada Front-End. 
 
