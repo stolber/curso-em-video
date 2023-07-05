@@ -1,0 +1,3 @@
+[submodule "curso-em-video"]
+	path = curso-em-video
+	url = https://github.com/stolber/curso-em-video.git
